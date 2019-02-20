@@ -7,6 +7,6 @@ var dataSchema = new Schema({
     kwh: Number,
     bill: Number,
     savings: Number
-}, { collection: 'dataviewer'});
+});
 
-module.exports = mongoose.model("Data", dataSchema);
+module.exports = mongoose.model("DataModel", dataSchema);
